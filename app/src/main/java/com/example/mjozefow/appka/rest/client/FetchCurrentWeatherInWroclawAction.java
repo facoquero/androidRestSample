@@ -6,20 +6,17 @@ import com.android.volley.VolleyError;
 import android.util.Log;
 import android.widget.TextView;
 
-/**
- * Created by mjozefow on 28-03-2016.
- */
-class CurrentWeatherOnWroclawResponse implements Response.Listener<String>, Response.ErrorListener {
+class FetchCurrentWeatherInWroclawAction implements Response.Listener<String>, Response.ErrorListener {
 
     final private TextView responseTV;
 
-    public CurrentWeatherOnWroclawResponse(TextView responseTV) {
+    public FetchCurrentWeatherInWroclawAction(TextView responseTV) {
         this.responseTV = responseTV;
     }
 
     @Override
     public void onResponse(String response) {
-        Log.i("marjoz", response);
+        Log.i("marjoz", "onResponse: " + response);
         responseTV.setText("Success message: " + response);
     }
 

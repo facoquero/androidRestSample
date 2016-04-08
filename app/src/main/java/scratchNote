@@ -1,0 +1,2 @@
+example of json for wroclaw:
+{"coord":{"lon":17.03,"lat":51.1},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"cmc stations","main":{"temp":286.15,"pressure":1005,"humidity":50,"temp_min":286.15,"temp_max":286.15},"wind":{"speed":5.7,"deg":170},"clouds":{"all":0},"dt":1459193400,"sys":{"type":1,"id":5375,"message":0.0079,"country":"PL","sunrise":1459139640,"sunset":1459185606},"id":3081368,"name":"Wroclaw","cod":200}
